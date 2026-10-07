@@ -52,7 +52,11 @@ La **WASM inclusa è la precedente versione giocabile**. Compilala nuovamente
 per usare il Rust attuale nel browser. `preview/camera.html` mostra il design
 aggiornato attraverso modelli JavaScript, senza eseguire la fisica Rust.
 
-Per PSP, compila o usa il pacchetto della release fornito dal manutentore:
+**Scarica PSP v0.2:** [ZIP installabile](https://github.com/Danyele360/sky-hopper-psp/releases/download/v0.2/SkyHopper-PSP-v0.2.zip)
+· [EBOOT per PPSSPP](https://github.com/Danyele360/sky-hopper-psp/releases/download/v0.2/SkyHopper.EBOOT.PBP)
+· [Note della release](https://github.com/Danyele360/sky-hopper-psp/releases/tag/v0.2).
+
+Per PSP, compila o scarica lo ZIP della release:
 estrailo nella Memory Stick ottenendo `PSP/GAME/SKYHOPPER/EBOOT.PBP` e avvialo
 su una console predisposta per homebrew. In PPSSPP apri il file autonomo
 `dist/SkyHopper.EBOOT.PBP`, per evitare che un percorso `PSP/GAME` esterno

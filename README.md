@@ -59,8 +59,12 @@ executable was tested in an emulator; hardware performance has not been measured
 
 ## Play
 
-**PSP:** build the project or obtain the release archive supplied by its
-maintainer. Extract it to your Memory Stick so the executable is at
+**Download PSP v0.2:** [Installation ZIP](https://github.com/Danyele360/sky-hopper-psp/releases/download/v0.2/SkyHopper-PSP-v0.2.zip)
+· [Standalone EBOOT for PPSSPP](https://github.com/Danyele360/sky-hopper-psp/releases/download/v0.2/SkyHopper.EBOOT.PBP)
+· [Release notes](https://github.com/Danyele360/sky-hopper-psp/releases/tag/v0.2).
+
+**PSP:** download the installation ZIP or build the project.
+Extract it to your Memory Stick so the executable is at
 `PSP/GAME/SKYHOPPER/EBOOT.PBP`, then launch it on a PSP configured for homebrew.
 Graphics and audio are embedded in the executable.
 
