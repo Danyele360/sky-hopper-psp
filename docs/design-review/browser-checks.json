@@ -1,0 +1,14 @@
+{
+  "scope": "Local models + visual review. No Rust/WASM/PSP compilation.",
+  "checks": [
+    "80% / 600 world units, compact HUD, last-3s warning, waiting icon, pause freezes all timers",
+    "Insufficient-funds feedback, permanent purchase price/effect, accumulating capsules, reload, one capsule consumed on start",
+    "Run result banks coins + three mission rewards; mission carry and collection persisted",
+    "ITA/ENG across menu, shop, goals, help, pause, HUD and controls; language persists",
+    "Keyboard menu navigation, category tabs and capsule equip",
+    "Maximum upgrade level disables purchase and preserves wallet",
+    "Mobile layout fits, all localization keys resolve",
+    "Existing WASM loads, keyboard/jump/pause still work, translated shell and 20 animation captions; previous-build note visible"
+  ],
+  "passed": true
+}

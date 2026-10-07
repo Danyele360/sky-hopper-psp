@@ -1,0 +1,188 @@
+{
+  "capturedOn": "2026-10-08",
+  "release": "PSP 0.2",
+  "gameId": "SKYH-00001",
+  "emulator": "PPSSPP 1.20.4",
+  "buildSha256": "20578c2ad1bb01ac88ffbf5ca6e5e4e6c0a23f9f0d7af675f316b7b387ab42f8",
+  "source": "Actual emulated PSP framebuffer; the game was not rebuilt",
+  "demoProfile": "Isolated save with staged coins, levels, stock and unlocks. Gameplay and run rewards captured live.",
+  "nativeImages": 18,
+  "presentationLayouts": 3,
+  "checks": [
+    "All PNGs decode",
+    "Native captures are 480x272",
+    "Composition dimensions match",
+    "README links resolve",
+    "PSP EBOOT and previous WASM hashes unchanged"
+  ],
+  "images": [
+    {
+      "file": "cover.png",
+      "width": 1600,
+      "height": 1000,
+      "kind": "presentation layout",
+      "bytes": 858928,
+      "sha256": "6b30084c37bc7abec4a2f7b85c7584a35473e1a78f32beb77bb9c39e82c73805"
+    },
+    {
+      "file": "gallery.png",
+      "width": 2080,
+      "height": 2999,
+      "kind": "presentation layout",
+      "bytes": 2365858,
+      "sha256": "355f6b3f29176d361e9dbca399bc057de82c57095c73859ba95bb7d0c6d05ac6"
+    },
+    {
+      "file": "gameplay-bonuses-eng.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 335835,
+      "sha256": "a4674e66119de59d452c69aaf8ac256b10112d66fa5a8208471aac53220ca05b"
+    },
+    {
+      "file": "gameplay-boost-slow-eng.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 327611,
+      "sha256": "f5de6424f6c0843126c295243d8a93321d030410cc238743cc2d46f8317c185e"
+    },
+    {
+      "file": "gameplay-nebula-ita.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 312712,
+      "sha256": "1ec37fdccf9d939167af7d653a264900f8ea28ca48b0ffa81804e880f5a38b12"
+    },
+    {
+      "file": "gameplay-panorama.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 330586,
+      "sha256": "8cb8826710583529e6e920284a617cc5c98a011795481a5172178ac404b05d22"
+    },
+    {
+      "file": "goals-eng.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 99535,
+      "sha256": "fca45ca34101f7c8135529c0722a406c130f474d7ab6485d0b1fa190359ece85"
+    },
+    {
+      "file": "hangar-capsule-ita.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 98234,
+      "sha256": "0eb9d78019f0c7cf1e73ca725117148c351a4569bfcf819a26f496e89794e3a3"
+    },
+    {
+      "file": "hangar-capsules-eng.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 97472,
+      "sha256": "bd4f632f8ea6fabd8987a8d9a02e8e1bc8a4011e5c161a6fdc077d0861a38a96"
+    },
+    {
+      "file": "hangar-migliorie-ita.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 97794,
+      "sha256": "5854770700f6c41d49ca5c1e8a7b0e007bb8e54055a4e218647bdeb3bf57931e"
+    },
+    {
+      "file": "hangar-skills-eng.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 84731,
+      "sha256": "64f19c2520751fbe993e0f6d6cd92a254ee8f382fcb1b1be4573ea0598b14364"
+    },
+    {
+      "file": "hangar-stile-ita.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 83120,
+      "sha256": "8e999736563395ba4db2a7bac1c4968a8866e913432b2f3b58ef57a9eb5fab84"
+    },
+    {
+      "file": "hangar-style-eng.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 97236,
+      "sha256": "4c9a479c9d88a51c6ccd37a87a93d55c660a84cf271aa943b677103e123ef39c"
+    },
+    {
+      "file": "hangar-upgrades-eng.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 97948,
+      "sha256": "d107d7cc50effabebb49ff77f1553ff52d42576a45e2c8e2235cb9ed54382a65"
+    },
+    {
+      "file": "menu-eng.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 223198,
+      "sha256": "3597070770b47aa27d2277cfec802e5a5630559aff99fe1768bdebebb5c9e944"
+    },
+    {
+      "file": "menu-ita.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 207551,
+      "sha256": "58be303de0b0961d0a7b1c0a6c01076e4769d9c55d347d3f73112a271c2f0969"
+    },
+    {
+      "file": "obiettivi-ita.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 99223,
+      "sha256": "f367e89f0b2ff7d9877e28e240e027e6afc048f26029b4ecf0c760e3ae156e42"
+    },
+    {
+      "file": "pausa-ita.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 159421,
+      "sha256": "fb753ce921cf4d51b080926f8badd7b930675ddde0abc6eb497392f525c72dea"
+    },
+    {
+      "file": "pause-eng.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 171236,
+      "sha256": "a033b8cabcabd23728602a70709f79702f8f5245d915d8a311ada30e8e1a009d"
+    },
+    {
+      "file": "risultati-ita.png",
+      "width": 480,
+      "height": 272,
+      "kind": "native PSP framebuffer",
+      "bytes": 218468,
+      "sha256": "f187d41e23a8e8781d222319c94ea780e4b76fd8c2db4f1be9482301bb3e5638"
+    },
+    {
+      "file": "social-preview.png",
+      "width": 1280,
+      "height": 640,
+      "kind": "presentation layout",
+      "bytes": 587674,
+      "sha256": "8507eaf40eb525fada0c647fb9dadbf1548c02deebebc4566105574b5f68f03b"
+    }
+  ]
+}

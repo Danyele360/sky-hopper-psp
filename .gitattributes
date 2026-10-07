@@ -1,0 +1,19 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.rs text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.gif binary
+*.rgba binary
+*.bin binary
+*.wasm binary
+*.pbp binary
+*.PBP binary
+*.zip binary

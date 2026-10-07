@@ -1,0 +1,144 @@
+[
+  {
+    "name": "bitflags",
+    "version": "2.13.2",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://github.com/bitflags/bitflags",
+    "texts": [
+      "LICENSES/bitflags-2.13.2/LICENSE-APACHE",
+      "LICENSES/bitflags-2.13.2/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "libm",
+    "version": "0.2.16",
+    "license": "MIT",
+    "source": "https://github.com/rust-lang/compiler-builtins",
+    "texts": [
+      "LICENSES/libm-0.2.16/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "linked_list_allocator",
+    "version": "0.10.6",
+    "license": "Apache-2.0/MIT",
+    "source": "https://github.com/phil-opp/linked-list-allocator",
+    "texts": [
+      "LICENSES/linked_list_allocator-0.10.6/LICENSE-APACHE",
+      "LICENSES/linked_list_allocator-0.10.6/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "num_enum",
+    "version": "0.7.6",
+    "license": "BSD-3-Clause OR MIT OR Apache-2.0",
+    "source": "https://github.com/illicitonion/num_enum",
+    "texts": [
+      "LICENSES/num_enum-0.7.6/LICENSE-APACHE",
+      "LICENSES/num_enum-0.7.6/LICENSE-BSD",
+      "LICENSES/num_enum-0.7.6/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "num_enum_derive",
+    "version": "0.7.6",
+    "license": "BSD-3-Clause OR MIT OR Apache-2.0",
+    "source": "https://github.com/illicitonion/num_enum",
+    "texts": [
+      "LICENSES/num_enum_derive-0.7.6/LICENSE-APACHE",
+      "LICENSES/num_enum_derive-0.7.6/LICENSE-BSD",
+      "LICENSES/num_enum_derive-0.7.6/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "paste",
+    "version": "1.0.15",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://github.com/dtolnay/paste",
+    "texts": [
+      "LICENSES/paste-1.0.15/LICENSE-APACHE",
+      "LICENSES/paste-1.0.15/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "proc-macro2",
+    "version": "1.0.107",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://github.com/dtolnay/proc-macro2",
+    "texts": [
+      "LICENSES/proc-macro2-1.0.107/LICENSE-APACHE",
+      "LICENSES/proc-macro2-1.0.107/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "quote",
+    "version": "1.0.47",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://github.com/dtolnay/quote",
+    "texts": [
+      "LICENSES/quote-1.0.47/LICENSE-APACHE",
+      "LICENSES/quote-1.0.47/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "rustversion",
+    "version": "1.0.23",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://github.com/dtolnay/rustversion",
+    "texts": [
+      "LICENSES/rustversion-1.0.23/LICENSE-APACHE",
+      "LICENSES/rustversion-1.0.23/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "spin",
+    "version": "0.9.9",
+    "license": "MIT",
+    "source": "https://github.com/mvdnes/spin-rs.git",
+    "texts": [
+      "LICENSES/spin-0.9.9/LICENSE"
+    ]
+  },
+  {
+    "name": "syn",
+    "version": "2.0.119",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://github.com/dtolnay/syn",
+    "texts": [
+      "LICENSES/syn-2.0.119/LICENSE-APACHE",
+      "LICENSES/syn-2.0.119/LICENSE-MIT"
+    ]
+  },
+  {
+    "name": "unicode-ident",
+    "version": "1.0.26",
+    "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+    "source": "https://github.com/dtolnay/unicode-ident",
+    "texts": [
+      "LICENSES/unicode-ident-1.0.26/LICENSE-APACHE",
+      "LICENSES/unicode-ident-1.0.26/LICENSE-MIT",
+      "LICENSES/unicode-ident-1.0.26/LICENSE-UNICODE"
+    ]
+  },
+  {
+    "name": "unstringify",
+    "version": "0.1.4",
+    "license": "Zlib OR MIT OR Apache-2.0",
+    "source": "https://github.com/danielhenrymantilla/unstringify.rs",
+    "texts": [
+      "LICENSES/unstringify-0.1.4/LICENSE-APACHE",
+      "LICENSES/unstringify-0.1.4/LICENSE-MIT",
+      "LICENSES/unstringify-0.1.4/LICENSE-ZLIB"
+    ]
+  },
+  {
+    "name": "rust-psp",
+    "version": "1.0.0",
+    "revision": "ad92131218406308170a3344786865415aef2995",
+    "license": "MIT; includes PSPSDK reference notice",
+    "source": "https://github.com/AndrewAltimit/rust-psp",
+    "texts": [
+      "LICENSES/rust-psp.txt"
+    ]
+  }
+]

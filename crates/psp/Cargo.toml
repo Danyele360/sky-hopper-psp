@@ -1,0 +1,14 @@
+[package]
+name = "sky-hopper-psp"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "PlayStation Portable adapter for Sky Hopper"
+
+[[bin]]
+name = "sky-hopper"
+path = "src/main.rs"
+
+[dependencies]
+sky-hopper-game = { path = "../game" }
+psp = { git = "https://github.com/AndrewAltimit/rust-psp", rev = "ad92131218406308170a3344786865415aef2995" }

@@ -1,0 +1,12 @@
+[package]
+name = "sky-hopper-preview"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "WebAssembly adapter for the Sky Hopper browser preview"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+sky-hopper-game = { path = "../game" }

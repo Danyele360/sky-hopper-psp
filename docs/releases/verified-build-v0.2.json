@@ -1,0 +1,13 @@
+{
+  "release": "0.2",
+  "date": "2026-10-07",
+  "target": "PSP",
+  "pbp_bytes": 1490393,
+  "pbp_sha256": "20578c2ad1bb01ac88ffbf5ca6e5e4e6c0a23f9f0d7af675f316b7b387ab42f8",
+  "zip_bytes": 832242,
+  "zip_sha256": "8ff92b682f803df3fa2161d1d023d68f93e6c7cdb068a72d794448c4f734ee61",
+  "wasm_rebuilt": false,
+  "wasm_sha256": "da4781e10a53ae5ab66cb4daecbed46e6c0ac3d5b61aedb1f26583e95356211f",
+  "rust_tests_passed": 30,
+  "emulator": "PPSSPP 1.20.4"
+}

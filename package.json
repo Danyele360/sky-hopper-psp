@@ -1,0 +1,15 @@
+{
+  "name": "sky-hopper-dev-tools",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Optional browser verification and screenshot tools for Sky Hopper PSP",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node tools/check_powers.mjs && node tools/check_progression.mjs",
+    "check:browser": "node tools/check_design_review.cjs",
+    "check:preview": "node tools/check_preview.cjs",
+    "showcase": "node tools/compose_showcase.cjs"
+  },
+  "devDependencies": { "playwright": "1.63.0" }
+}

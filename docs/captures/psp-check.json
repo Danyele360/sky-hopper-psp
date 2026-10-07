@@ -1,0 +1,39 @@
+{
+  "version": {
+    "event": "version",
+    "ticket": 1,
+    "name": "PPSSPP",
+    "version": "v1.20.4"
+  },
+  "status": {
+    "event": "game.status",
+    "ticket": 2,
+    "game": {
+      "id": "SKYH-00001",
+      "version": "0.10",
+      "title": "Sky Hopper PSP - Oltre le Nuvole"
+    },
+    "paused": false
+  },
+  "menu": {
+    "width": 480,
+    "height": 272,
+    "source": "PPSSPP emulated VRAM"
+  },
+  "play": {
+    "width": 480,
+    "height": 272,
+    "source": "PPSSPP emulated VRAM"
+  },
+  "pause": {
+    "width": 480,
+    "height": 272,
+    "source": "PPSSPP emulated VRAM"
+  },
+  "hangar": {
+    "width": 480,
+    "height": 272,
+    "source": "PPSSPP emulated VRAM"
+  },
+  "passed": true
+}

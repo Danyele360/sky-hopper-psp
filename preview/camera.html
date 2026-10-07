@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sky Hopper · 80% / ITA / ENG</title>
+  <link rel="icon" href="../assets/runtime/icon0.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+<main>
+  <header><span class="eyebrow">SKY HOPPER</span><label><span data-i18n="language">Lingua</span> <select id="language" aria-label="ITA / ENG"><option value="it">ITA</option><option value="en">ENG</option></select></label></header>
+  <p class="description" data-i18n="review_intro"></p>
+  <nav class="options screens" data-i18n-aria="screens">
+    <button data-screen="playing" data-i18n="play" aria-pressed="true"></button>
+    <button data-screen="paused" data-i18n="pause" aria-pressed="false"></button>
+    <button data-screen="shop" data-i18n="store" aria-pressed="false"></button>
+    <button data-screen="journal" data-i18n="journal" aria-pressed="false"></button>
+    <button data-screen="menu" data-i18n="menu" aria-pressed="false"></button>
+    <button data-screen="help" data-i18n="help" aria-pressed="false"></button>
+  </nav>
+  <div class="game-wrap"><canvas id="selected" width="480" height="272" tabindex="0" data-i18n-aria="review"></canvas></div>
+  <p id="metrics" class="description"></p>
+  <p class="description" data-i18n="hud_note"></p>
+  <section id="store-controls" hidden>
+    <div class="options"><button data-category="0" data-i18n="upgrades"></button><button data-category="1" data-i18n="stock"></button><button data-category="2" data-i18n="style"></button></div>
+    <div id="store-items" class="store-items"></div>
+    <p id="store-detail" class="description"></p>
+    <div class="options"><button id="buy" data-i18n="buy"></button><button id="equip" data-i18n="equip" hidden></button></div>
+  </section>
+  <p id="feedback" role="status" class="feedback"></p>
+  <details id="bonus-controls" open>
+    <summary data-i18n="add_bonus"></summary>
+    <div class="options" id="power-buttons">
+      <button data-power="1" data-i18n="power_1"></button><button data-power="2" data-i18n="power_2"></button>
+      <button data-power="3" data-i18n="power_3"></button><button data-power="4" data-i18n="power_4"></button>
+      <button data-power="5" data-i18n="power_5"></button><button data-power="6" data-i18n="power_6"></button>
+    </div>
+    <div class="options"><button data-combo="1,2,3,4,6" data-i18n="combo"></button><button data-combo="1,2,4,5,6" data-i18n="flight_combo"></button><button id="power-hit" data-i18n="hit"></button><button id="power-clear" data-i18n="clear"></button></div>
+    <div class="options"><button id="power-clock" aria-pressed="false" data-i18n="start_timers"></button><button data-advance="1" data-i18n="advance_one"></button><button data-advance="5" data-i18n="advance_five"></button><label><input id="power-upgrade" type="checkbox"> <span data-i18n="legacy_upgrade"></span></label></div>
+    <p id="power-status" class="description"></p><p id="power-message" role="status" class="description"></p>
+    <p class="note" data-i18n="stack_note"></p>
+  </details>
+  <details open>
+    <summary data-i18n="objectives"></summary>
+    <div class="options"><button id="demo-wallet" data-i18n="demo_wallet"></button><button id="demo-run" data-i18n="demo_run"></button><button id="start-run" data-i18n="start_run"></button></div>
+    <p data-i18n="demo_run_hint" class="note"></p>
+    <p id="profile-status" class="description"></p>
+  </details>
+  <details>
+    <summary data-i18n="view"></summary>
+    <div class="options" id="zooms"><button data-zoom="0.8" aria-pressed="true" data-i18n="chosen_view"></button><button data-zoom="1" aria-pressed="false" data-i18n="original_view"></button><button data-zoom="0.75" aria-pressed="false" data-i18n="wide_view"></button></div>
+    <div class="options" id="poses"><button data-pose="0" data-i18n="run" aria-pressed="true"></button><button data-pose="5" data-i18n="jump" aria-pressed="false"></button><button data-pose="6" data-i18n="double_jump" aria-pressed="false"></button><button data-pose="12" data-i18n="power_5" aria-pressed="false"></button><button id="motion" aria-pressed="false" data-i18n="animate"></button></div>
+    <div class="comparison"><figure><canvas data-view="1" width="480" height="272"></canvas><figcaption>100% · 480</figcaption></figure><figure><canvas data-view="0.8" width="480" height="272"></canvas><figcaption>80% · 600</figcaption></figure><figure><canvas data-view="0.75" width="480" height="272"></canvas><figcaption>75% · 640</figcaption></figure></div>
+  </details>
+  <div class="native"><canvas id="native" width="480" height="272" data-i18n-aria="native"></canvas><p class="description" data-i18n="native"></p></div>
+  <p class="note" data-i18n="review_note"></p>
+  <p class="note"><a href="./" data-i18n="open_game"></a></p>
+</main>
+<script type="module" src="camera.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "WASM load",
+    "keyboard",
+    "jump",
+    "double jump",
+    "pause freezes display",
+    "dash",
+    "hangar",
+    "save",
+    "20 animation previews",
+    "mobile layout"
+  ],
+  "errors": []
+}

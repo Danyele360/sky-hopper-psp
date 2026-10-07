@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071429">
+  <link rel="icon" href="../assets/runtime/icon0.png">
+  <title>Sky Hopper PSP · Oltre le Nuvole</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+  <main>
+    <header><span class="eyebrow">SKY HOPPER PSP</span><label><span data-i18n="language">Lingua</span> <select id="language" aria-label="ITA / ENG"><option value="it">ITA</option><option value="en">ENG</option></select></label></header>
+    <p class="note" id="game-note" data-i18n="game_note"></p>
+    <p class="note"><a href="camera.html" data-i18n="review">Verifica locale</a></p>
+    <div class="game-wrap">
+      <canvas id="game" width="480" height="272" tabindex="0" data-i18n-aria="keyboard_hint"></canvas>
+      <p id="loading" role="status" data-i18n="loading">Preparazione del volo…</p>
+    </div>
+    <div class="toolbar"><span id="status">480 × 272 · Sky Hopper</span><div><button id="mute" aria-pressed="false" data-i18n="sound_on">Audio attivo</button><button id="fullscreen" data-i18n="fullscreen">Schermo intero</button></div></div>
+    <div class="controls" data-i18n-aria="controls">
+      <div class="directions"><button data-key="64" data-i18n-aria="up">↑</button><div><button data-key="2" data-i18n-aria="left">←</button><button data-key="128" data-i18n-aria="down">↓</button><button data-key="4" data-i18n-aria="right">→</button></div></div>
+      <div><button data-key="16">L / R · Dash</button><button data-key="8">Start</button><button data-key="32" data-i18n="menu">○ Menu</button><button class="jump" data-key="1" data-i18n="jump">× Salto</button></div>
+    </div>
+    <p class="hint" data-i18n="keyboard_hint"></p>
+    <details><summary data-i18n="gallery">Immagini e animazioni del gioco</summary>
+      <p data-i18n="art_note">Robot originale, isole sospese e sei potenziamenti. Tutti gli sprite hanno uno sfondo trasparente.</p>
+      <div class="art"><figure><img src="../assets/runtime/robot.png" alt="16 pose del robot"><figcaption data-i18n="art_robot">16 pose del robot</figcaption></figure><figure><img src="../assets/runtime/world.png" alt="Piattaforme e power-up"><figcaption data-i18n="art_world">Piattaforme, monete e potenziamenti</figcaption></figure></div>
+      <div class="animations" id="animations"></div>
+    </details>
+    <footer data-i18n="footer">Piccoli salti. Grandi orizzonti.</footer>
+  </main>
+  <script type="module" src="game.js"></script>
+</body>
+</html>

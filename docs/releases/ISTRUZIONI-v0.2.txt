@@ -1,0 +1,33 @@
+Sky Hopper PSP - Oltre le Nuvole / Beyond the Clouds - versione 0.2
+
+PSP: estrai l'archivio nella radice della Memory Stick.
+Il file deve trovarsi in PSP/GAME/SKYHOPPER/EBOOT.PBP.
+Avvia Sky Hopper dal menu Giochi su una PSP predisposta per homebrew.
+
+X: salto e doppio salto. Frecce: traiettoria.
+L/R: dash. START: pausa. Cerchio: menu.
+Jetpack: X o su per salire, giu per scendere.
+
+Grafica e animazioni sono incorporate nell'EBOOT.
+Record, monete e obiettivi si salvano a fine corsa o tornando al menu dalla pausa.
+Acquisti, scelta lingua e uso delle capsule si salvano quando cambiano.
+Conserva sky-hopper-save.bin se aggiorni un'installazione esistente:
+il gioco migra i salvataggi precedenti mantenendo monete e acquisti.
+
+NOVITA': panoramica 80%, HUD compatto, bonus cumulabili, store con livelli,
+capsule accumulabili, obiettivi e collezione. Lingua ITA/ENG selezionabile nel menu.
+Nell'hangar: su/giu sceglie la voce; sinistra/destra cambia categoria.
+X compra o equipaggia gli aspetti. L/R equipaggia o rimuove la capsula iniziale.
+Solo una capsula scelta viene consumata a ogni partenza.
+
+ENGLISH: extract to the Memory Stick root, keeping PSP/GAME/SKYHOPPER/EBOOT.PBP.
+Choose ITA/ENG in the game menu. X jumps / double jumps, arrows steer, L/R dashes,
+START pauses, Circle goes back. Keep your existing sky-hopper-save.bin on update.
+Hangar: up/down selects, left/right changes category, X buys, L/R arms a capsule.
+
+Build 0.2, 30 test Rust e avvio verificati in PPSSPP 1.20.4.
+La nuova versione non e stata ancora provata su una console fisica.
+Guida completa e sorgenti nel progetto: README.md / README.it.md.
+
+Progetto: licenza MIT in LICENSE. Dipendenze: THIRD_PARTY_NOTICES.md e LICENSES/.
+SDK: AndrewAltimit/rust-psp, testo completo con attribuzioni in LICENSES/rust-psp.txt.

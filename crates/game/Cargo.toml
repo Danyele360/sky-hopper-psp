@@ -1,0 +1,9 @@
+[package]
+name = "sky-hopper-game"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Shared Sky Hopper game simulation, progression and software renderer"
+
+[dependencies]
+libm = "0.2"

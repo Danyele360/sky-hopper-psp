@@ -1,0 +1,2 @@
+# Only needed for asset packing, capture export and showcase validation.
+Pillow==12.3.0

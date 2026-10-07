@@ -1,0 +1,14 @@
+[workspace]
+members = ["crates/game", "crates/wasm", "crates/psp"]
+default-members = ["crates/game", "crates/wasm"]
+exclude = [".tools/rust-psp", ".tools/rust-psp/cargo-psp"]
+resolver = "2"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.dev]
+panic = "abort"

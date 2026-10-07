@@ -1,0 +1,31 @@
+{
+  "schema": 2,
+  "zoom": 0.8,
+  "items": [
+    {"key":"magnet_upgrade","kind":"duration","index":0,"max":3,"cost":28,"step":25,"category":0},
+    {"key":"shield_upgrade","kind":"duration","index":1,"max":3,"cost":28,"step":25,"category":0},
+    {"key":"boost_upgrade","kind":"duration","index":2,"max":3,"cost":28,"step":25,"category":0},
+    {"key":"jump_upgrade","kind":"duration","index":3,"max":3,"cost":28,"step":25,"category":0},
+    {"key":"jet_upgrade","kind":"duration","index":4,"max":3,"cost":35,"step":30,"category":0},
+    {"key":"slow_upgrade","kind":"duration","index":5,"max":3,"cost":28,"step":25,"category":0},
+    {"key":"magnet_range","kind":"skill","index":0,"max":3,"cost":40,"step":35,"category":0},
+    {"key":"dash_recovery","kind":"skill","index":1,"max":3,"cost":40,"step":35,"category":0},
+    {"key":"coin_yield","kind":"skill","index":2,"max":3,"cost":40,"step":35,"category":0},
+    {"key":"magnet_stock","kind":"capsule","index":0,"power":1,"max":9,"cost":12,"step":0,"category":1},
+    {"key":"shield_stock","kind":"capsule","index":1,"power":2,"max":9,"cost":18,"step":0,"category":1},
+    {"key":"jet_stock","kind":"capsule","index":2,"power":5,"max":9,"cost":25,"step":0,"category":1},
+    {"key":"skin_nebula","kind":"cosmetic","index":0,"max":1,"cost":60,"step":0,"category":2},
+    {"key":"skin_solar","kind":"cosmetic","index":1,"max":1,"cost":120,"step":0,"category":2},
+    {"key":"world_nebula","kind":"cosmetic","index":2,"max":1,"cost":180,"step":0,"category":2}
+  ],
+  "missions": [
+    {"key":"mission_distance","target":600,"step":300,"reward":15},
+    {"key":"mission_coins","target":12,"step":6,"reward":20},
+    {"key":"mission_pickups","target":2,"step":1,"reward":25}
+  ],
+  "duration_step":1.0,
+  "jet_duration_step":0.5,
+  "magnet_range_step":20.0,
+  "dash_recovery_step":0.3,
+  "coin_yield_percent":10
+}

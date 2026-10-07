@@ -1,0 +1,13 @@
+{
+  "scope": "Local JS review model only; Rust/PSP/WASM not compiled",
+  "checks": [
+    "Independent refresh; shield consumption preserves magnet",
+    "Five compatible bonuses; boost protects without consuming shield",
+    "Jetpack replaces boost only; super jump pauses then resumes",
+    "Reverse conflict order resumes super jump immediately",
+    "Upgrade durations and start/stop timers",
+    "Animated sprites, multiple HUD cards, mobile layout",
+    "No JavaScript page errors"
+  ],
+  "passed": true
+}

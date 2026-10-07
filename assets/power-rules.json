@@ -1,0 +1,12 @@
+{
+  "upgrade_seconds": 2.0,
+  "repeat_pickup": "refresh_duration",
+  "powers": [
+    {"id": 1, "name": "MAGNET", "label": "MAGNET", "title": "Magnete", "seconds": 8.0, "incompatible": [], "suspended_by": []},
+    {"id": 2, "name": "SHIELD", "label": "SCUDO", "title": "Scudo", "seconds": 8.0, "incompatible": [], "suspended_by": []},
+    {"id": 3, "name": "BOOST", "label": "BOOST", "title": "Boost", "seconds": 8.0, "incompatible": [5], "suspended_by": []},
+    {"id": 4, "name": "SUPER JUMP", "label": "SALTO", "title": "Super salto", "seconds": 8.0, "incompatible": [], "suspended_by": [5]},
+    {"id": 5, "name": "JETPACK", "label": "JET", "title": "Jetpack", "seconds": 4.5, "incompatible": [3], "suspended_by": []},
+    {"id": 6, "name": "SLOW MOTION", "label": "SLOW", "title": "Slow motion", "seconds": 8.0, "incompatible": [], "suspended_by": []}
+  ]
+}
